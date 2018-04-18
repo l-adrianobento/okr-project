@@ -1,0 +1,49 @@
+/**/
+
+#topo {
+    margin-top: 3%;
+}
+
+#topo #vez-de{
+	font-weight: bold;
+	font-size: 32px;
+    line-height: 14px;
+}
+
+#jogo #grid .tile{
+	height: 145px;
+	width: 145px;
+	cursor: pointer;
+}
+
+#jogo #grid .tile.desabled{
+	background-color: #eee;
+	font-size: 150px;
+    font-weight: bold;
+    line-height: 120px;
+    pointer-events: none;
+}
+
+#jogo #grid .tile.desabled.x{
+	color: red;
+	padding-left: 18px;
+}
+
+#jogo #grid .tile.desabled.o{
+	color: blue;
+	padding-left: 14px;
+}
+
+#bottom {
+	margin-top: 25px;
+}
+
+#bottom .button {
+	width: 45%;
+    background: #ddd;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0 auto;
+}
