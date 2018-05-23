@@ -24,6 +24,10 @@
     pointer-events: none;
 }
 
+#jogo #grid .tile.ganhou{
+	background-color: rgb(18, 150, 33);
+}
+
 #jogo #grid .tile.desabled.x{
 	color: red;
 	padding-left: 18px;
