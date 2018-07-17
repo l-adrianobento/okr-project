@@ -20,7 +20,7 @@
 	<body>
 
 		<section id="topo">
-			<div class="row">
+			<div class="row no-gutters">
 				<div class="col-8 text-center">
 					<h1>Jogo da velha</h1>
 				</div>
@@ -33,28 +33,30 @@
 
 		<section id="jogo" class="container">
 			<div id="grid" class="row">
-				<div class="row no-gutters">
-					<div class="col-4 tile" id="slot_1" onclick="seleciona(1);" style="border-right: 4px solid #333; border-bottom: 4px solid #333;">
+				<div class="col-12 col-sm-12 col-md-10 col-lg-6 col-xl-6 col-grid">
+					<div class="row no-gutters">
+						<div class="col-4 tile" id="slot_1" onclick="seleciona(1);" style="border-right: 4px solid #bbb; border-bottom: 4px solid #bbb;">
+						</div>
+						<div class="col-4 tile" id="slot_2" onclick="seleciona(2);" style="border: 4px solid #bbb; border-top: none;">
+						</div>
+						<div class="col-4 tile" id="slot_3" onclick="seleciona(3);" style="border-left: 4px solid #bbb; border-bottom: 4px solid #bbb;">
+						</div>
 					</div>
-					<div class="col-4 tile" id="slot_2" onclick="seleciona(2);" style="border: 4px solid #333; border-top: none;">
+					<div class="row no-gutters">
+						<div class="col-4 tile" id="slot_4" onclick="seleciona(4);" style="border: 4px solid #bbb; border-left: none;">
+						</div>
+						<div class="col-4 tile" id="slot_5" onclick="seleciona(5);" style="border: 4px solid #bbb;">
+						</div>
+						<div class="col-4 tile" id="slot_6" onclick="seleciona(6);" style="border: 4px solid #bbb; border-right: none;">
+						</div>
 					</div>
-					<div class="col-4 tile" id="slot_3" onclick="seleciona(3);" style="border-left: 4px solid #333; border-bottom: 4px solid #333;">
-					</div>
-				</div>
-				<div class="row no-gutters">
-					<div class="col-4 tile" id="slot_4" onclick="seleciona(4);" style="border: 4px solid #333; border-left: none;">
-					</div>
-					<div class="col-4 tile" id="slot_5" onclick="seleciona(5);" style="border: 4px solid #333;">
-					</div>
-					<div class="col-4 tile" id="slot_6" onclick="seleciona(6);" style="border: 4px solid #333; border-right: none;">
-					</div>
-				</div>
-				<div class="row no-gutters">
-					<div class="col-4 tile" id="slot_7" onclick="seleciona(7);" style="border-right: 4px solid #333; border-top: 4px solid #333;">
-					</div>
-					<div class="col-4 tile" id="slot_8" onclick="seleciona(8);" style="border: 4px solid #333; border-bottom: none;">
-					</div>
-					<div class="col-4 tile" id="slot_9" onclick="seleciona(9);" style="border-left: 4px solid #333; border-top: 4px solid #333;">
+					<div class="row no-gutters">
+						<div class="col-4 tile" id="slot_7" onclick="seleciona(7);" style="border-right: 4px solid #bbb; border-top: 4px solid #bbb;">
+						</div>
+						<div class="col-4 tile" id="slot_8" onclick="seleciona(8);" style="border: 4px solid #bbb; border-bottom: none;">
+						</div>
+						<div class="col-4 tile" id="slot_9" onclick="seleciona(9);" style="border-left: 4px solid #bbb; border-top: 4px solid #bbb;">
+						</div>
 					</div>
 				</div>
 			</div>

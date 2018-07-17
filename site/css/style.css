@@ -1,5 +1,9 @@
 /**/
 
+body {
+	background: #efefef;
+}
+
 #topo {
     margin-top: 3%;
 }
@@ -10,14 +14,23 @@
     line-height: 14px;
 }
 
+#jogo {
+	margin-top: 40px;
+}
+
 #jogo #grid .tile{
 	height: 145px;
 	width: 145px;
+	text-align: center;
 	cursor: pointer;
 }
 
+#grid .col-grid {
+	margin-left: auto;
+    margin-right: auto;
+}
+
 #jogo #grid .tile.desabled{
-	background-color: #eee;
 	font-size: 150px;
     font-weight: bold;
     line-height: 120px;
@@ -30,21 +43,18 @@
 
 #jogo #grid .tile.desabled.x{
 	color: red;
-	padding-left: 18px;
 }
 
 #jogo #grid .tile.desabled.o{
 	color: blue;
-	padding-left: 14px;
 }
 
 #bottom {
-	margin-top: 25px;
+	margin-top: 50px;
 }
 
 #bottom .button {
 	width: 45%;
-    background: #ddd;
     padding: 10px;
     text-align: center;
     font-weight: bold;
